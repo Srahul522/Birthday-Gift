@@ -7,8 +7,7 @@ init(autoreset=True)
 Suggestions = {'Tumhe dillagi bhul jani padegi', 'hai kaha ka irada'}
 print(Fore.GREEN + "\"Welco|\/|e to Prog|`am\"""\n      |  |ood  Chec|<er!")
 print(Fore.GREEN + "=============================================")
-print("\n                  \
-  How are you:")
+print("\n               How are you:")
 
 def Happy():
     print("\n Good! May you stay Happy, stay healthy & Fit", "Onec a Gentleman said: \n \"Happiness is the best makeup.\" — Drew Barrymore")
