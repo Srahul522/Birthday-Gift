@@ -5,7 +5,7 @@ import random
 init(autoreset=True)
 
 Suggestions = {'Tumhe dillagi bhul jani padegi', 'hai kaha ka irada'}
-print(Fore.GREEN + "\"Welco|\/|e to Program\"""\n      |  |ood  Checker!")
+print(Fore.GREEN + "\"Welco|\/|e to Prog|`am\"""\n      |  |ood  Chec|<er!")
 print(Fore.GREEN + "=============================================")
 print("\n                  \
   How are you:")
@@ -41,7 +41,7 @@ if choice == 1:
 
 elif choice == 2:
     Sad()
-    suggest =  input("Have you kind a suggestion:\n Y/N\n ")
+    suggest =  input("Do you want any suggestions?:\n Y/N\n ")
     if suggest == "y":
         print("Try:\n", Suggestions,)
 
@@ -54,5 +54,7 @@ elif choice == 3:
     if play == "y":
         # print(attempt)
         guessing()
+    elif play == "n":
+        print("don\' Worrie We not Forceing")
     else:
         print(Fore.RED + "\n!Invalid choice\n""Maybe try Again") 
